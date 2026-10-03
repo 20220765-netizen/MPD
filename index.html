@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Huellitas Premium: alimento natural para perros en Perú, sin conservantes artificiales y recomendado por veterinarios.">
+  <title>Huellitas Premium | Alimento natural para perros</title>
+
+  <!-- Tipografías de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Hoja de estilos -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== 1. BARRA DE NAVEGACIÓN FIJA ========== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#inicio" class="logo" aria-label="Huellitas Premium, ir al inicio">
+        <span class="logo__icon">🐾</span> Huellitas<span class="logo__accent">Premium</span>
+      </a>
+
+      <!-- Botón hamburguesa (solo visible en móvil) -->
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-menu" id="nav-menu" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#inicio" class="nav-link">Inicio</a></li>
+          <li><a href="#beneficios" class="nav-link">Beneficios</a></li>
+          <li><a href="#productos" class="nav-link">Productos</a></li>
+          <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== 2. HERO ========== -->
+    <section class="hero" id="inicio">
+      <div class="container hero__inner">
+        <div class="hero__text reveal">
+          <span class="badge">🌿 100% natural · Hecho para consentir</span>
+          <h1>Alimenta su felicidad con ingredientes que sí puedes pronunciar</h1>
+          <p class="hero__subtitle">
+            Alimento natural para cachorros, adultos y perros senior. Sin conservantes artificiales
+            y recomendado por veterinarios en todo el Perú.
+          </p>
+          <a href="#productos" class="btn btn--primary">Comprar ahora</a>
+          <a href="#beneficios" class="btn btn--ghost">Conocer más</a>
+        </div>
+
+        <div class="hero__image reveal">
+          <img
+            src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=900&q=80"
+            alt="Perro feliz sentado mirando a la cámara"
+            width="900" height="900">
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 3. BENEFICIOS ========== -->
+    <section class="section" id="beneficios">
+      <div class="container">
+        <div class="section__header reveal">
+          <h2>¿Por qué elegir Huellitas Premium?</h2>
+          <p>Porque tu perro es parte de la familia y merece lo mejor en cada plato.</p>
+        </div>
+
+        <div class="grid grid--4">
+          <article class="card benefit reveal">
+            <div class="benefit__icon" aria-hidden="true">🥕</div>
+            <h3>Ingredientes naturales</h3>
+            <p>Carnes, verduras y granos seleccionados, sin rellenos ni sabores artificiales.</p>
+          </article>
+
+          <article class="card benefit reveal">
+            <div class="benefit__icon" aria-hidden="true">🚫</div>
+            <h3>Sin conservantes artificiales</h3>
+            <p>Conservamos la frescura con métodos naturales para cuidar su salud.</p>
+          </article>
+
+          <article class="card benefit reveal">
+            <div class="benefit__icon" aria-hidden="true">🩺</div>
+            <h3>Recomendado por veterinarios</h3>
+            <p>Fórmulas balanceadas y aprobadas por especialistas en nutrición animal.</p>
+          </article>
+
+          <article class="card benefit reveal">
+            <div class="benefit__icon" aria-hidden="true">🚚</div>
+            <h3>Entrega a todo el Perú</h3>
+            <p>Recibe tu pedido en casa, con envío rápido y seguro a nivel nacional.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 4. PRODUCTOS ========== -->
+    <section class="section section--alt" id="productos">
+      <div class="container">
+        <div class="section__header reveal">
+          <h2>Nuestros productos</h2>
+          <p>Una fórmula pensada para cada etapa de su vida.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <!-- Cachorros -->
+          <article class="card product reveal">
+            <img
+              src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?auto=format&fit=crop&w=700&q=80"
+              alt="Cachorro jugando sobre el pasto"
+              loading="lazy" width="700" height="500">
+            <div class="product__body">
+              <span class="tag">Hasta 12 meses</span>
+              <h3>Huellitas Cachorros</h3>
+              <p>Rico en proteínas y DHA para un crecimiento fuerte, huesos sanos y mucha energía.</p>
+              <div class="product__footer">
+                <span class="price">S/ 89.90 <small>bolsa 7 kg</small></span>
+                <a href="#contacto" class="btn btn--small">Pedir</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Adultos -->
+          <article class="card product reveal">
+            <img
+              src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=700&q=80"
+              alt="Perro adulto golden retriever sonriendo"
+              loading="lazy" width="700" height="500">
+            <div class="product__body">
+              <span class="tag">De 1 a 7 años</span>
+              <h3>Huellitas Adultos</h3>
+              <p>Nutrición equilibrada para mantener su peso ideal, un pelaje brillante y buena digestión.</p>
+              <div class="product__footer">
+                <span class="price">S/ 99.90 <small>bolsa 10 kg</small></span>
+                <a href="#contacto" class="btn btn--small">Pedir</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Senior -->
+          <article class="card product reveal">
+            <img
+              src="https://images.unsplash.com/photo-1558788353-f76d92427f16?auto=format&fit=crop&w=700&q=80"
+              alt="Perro senior de hocico canoso descansando"
+              loading="lazy" width="700" height="500">
+            <div class="product__body">
+              <span class="tag">Más de 7 años</span>
+              <h3>Huellitas Senior</h3>
+              <p>Con glucosamina y menos calorías para cuidar sus articulaciones y su vitalidad.</p>
+              <div class="product__footer">
+                <span class="price">S/ 94.90 <small>bolsa 10 kg</small></span>
+                <a href="#contacto" class="btn btn--small">Pedir</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Snacks naturales -->
+        <p class="snacks reveal">
+          🦴 <strong>Y además:</strong> snacks naturales de pollo deshidratado y camote, desde <strong>S/ 14.90</strong>.
+        </p>
+      </div>
+    </section>
+
+    <!-- ========== 5. TESTIMONIOS ========== -->
+    <section class="section" id="testimonios">
+      <div class="container">
+        <div class="section__header reveal">
+          <h2>Familias que ya notan la diferencia</h2>
+          <p>Lo que dicen los dueños de nuestros consentidos.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <figure class="card testimonial reveal">
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <blockquote>
+              Mi cachorra Luna tiene más energía y su pelo está brillante. ¡La recomiendo totalmente!
+            </blockquote>
+            <figcaption>
+              <strong>María Fernández</strong>
+              <span>Lima · dueña de Luna</span>
+            </figcaption>
+          </figure>
+
+          <figure class="card testimonial reveal">
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <blockquote>
+              Mi veterinario me la recomendó y desde entonces Thor no ha tenido problemas de estómago.
+            </blockquote>
+            <figcaption>
+              <strong>Carlos Quispe</strong>
+              <span>Arequipa · dueño de Thor</span>
+            </figcaption>
+          </figure>
+
+          <figure class="card testimonial reveal">
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <blockquote>
+              A mis 12 años, Canela volvió a correr por el parque. La fórmula Senior es una maravilla.
+            </blockquote>
+            <figcaption>
+              <strong>Rosa Salazar</strong>
+              <span>Cusco · dueña de Canela</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== 6. LLAMADO A LA ACCIÓN FINAL ========== -->
+    <section class="cta">
+      <div class="container cta__inner reveal">
+        <h2>Haz feliz a tu mejor amigo hoy mismo 🐶</h2>
+        <p>Obtén <strong>10% de descuento</strong> en tu primera compra con el código <strong>HUELLITAS10</strong>.</p>
+        <a href="#productos" class="btn btn--light">Quiero mi descuento</a>
+      </div>
+    </section>
+
+    <!-- ========== 7. FORMULARIO DE CONTACTO ========== -->
+    <section class="section" id="contacto">
+      <div class="container contact">
+        <div class="contact__info reveal">
+          <h2>¿Tienes dudas? Escríbenos</h2>
+          <p>Cuéntanos sobre tu perrito y te ayudaremos a elegir el alimento ideal.</p>
+          <ul class="contact__list">
+            <li>📍 Lima, Perú</li>
+            <li>📞 +51 999 888 777</li>
+            <li>✉️ hola@huellitaspremium.pe</li>
+          </ul>
+        </div>
+
+        <form class="form reveal" id="contact-form" novalidate>
+          <div class="form__group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" autocomplete="name">
+            <small class="error" id="error-nombre"></small>
+          </div>
+
+          <div class="form__group">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" autocomplete="email">
+            <small class="error" id="error-correo"></small>
+          </div>
+
+          <div class="form__group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="¿En qué podemos ayudarte?"></textarea>
+            <small class="error" id="error-mensaje"></small>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--block">Enviar mensaje</button>
+
+          <!-- Mensaje de confirmación (oculto hasta que el formulario sea válido) -->
+          <p class="form__success" id="form-success" role="status" aria-live="polite" hidden></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== 8. FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#inicio" class="logo logo--footer">🐾 Huellitas<span class="logo__accent">Premium</span></a>
+
+      <ul class="social" aria-label="Redes sociales">
+        <li><a href="#" aria-label="Facebook">Facebook</a></li>
+        <li><a href="#" aria-label="Instagram">Instagram</a></li>
+        <li><a href="#" aria-label="TikTok">TikTok</a></li>
+        <li><a href="#" aria-label="WhatsApp">WhatsApp</a></li>
+      </ul>
+
+      <p class="footer__copy">
+        © <span id="year">2026</span> Huellitas Premium. Todos los derechos reservados.
+        <br><small>Empresa ficticia creada con fines académicos.</small>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Lógica de la página -->
+  <script src="script.js"></script>
+</body>
+</html>
